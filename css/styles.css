@@ -113,6 +113,9 @@ body {
 }
 /* ====== END TASKS ======*/
 /* ====== START TEAM ======*/
+.team {
+  background-color: var(--primary-backgraund-color);
+}
 .team-list-title {
   font-weight: 500;
   font-size: 16px;
