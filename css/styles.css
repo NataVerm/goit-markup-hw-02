@@ -6,9 +6,12 @@
   --secondary-text-color-theme-dark: rgba(255, 255, 255, 0.6);
   --secondary-text-color-theme-light: #212121;
   --accent-color: #2196f3;
+  --primary-logo-color: #000000;
+  --secondary-button-color: #188ce8;
 }
 body {
   font-family: var(--primary-font-family);
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -22,11 +25,17 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--primary-logo-color);
 }
 .logo-color {
   color: var(--accent-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color-theme-light);
 }
 /* ====== END COMPONENTS ======*/
 /* ====== START HEADER ======*/
@@ -74,17 +83,13 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color-theme-dark);
-
   background: var(--accent-color);
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #188ce8;
+  background: var(--secondary-button-color);
 }
 /* ====== END HERO ======*/
 /* ====== START FEATURES ======*/
@@ -92,70 +97,44 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color-theme-light);
 }
 /* ====== END FEATURES ======*/
 /* ====== START TASKS ======*/
-.tasks-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color-theme-light);
-}
 .features-list-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-light);
 }
 /* ====== END TASKS ======*/
 /* ====== START TEAM ======*/
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color-theme-light);
-}
 .team-list-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
 }
 .team-list-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-light);
 }
 /* ====== END TEAM ======*/
 /* ====== START FOOTER ======*/
 .logo-footer {
   font-family: var(--secondary-font-family);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-dark);
 }
 .address-list-link {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-dark);
 }
 .address-list-address {
@@ -167,22 +146,19 @@ body {
 }
 /* ====== END FOOTER ======*/
 /* ====== START PORTFOLIO HERO ======*/
-.portfolio-list-btn {
-  font-style: normal;
+.portfolio-filter-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
 }
-.portfolio-list-btn:hover,
-.portfolio-list-btn:focus {
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
   color: var(--primary-text-color-theme-dark);
   background-color: var(--accent-color);
 }
 .portfolio-works-list-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -190,10 +166,8 @@ body {
   color: var(--secondary-text-color-theme-light);
 }
 .portfolio-works-list-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
+  line-height: 1.88; 
   color: var(--primary-text-color-theme-light);
 }
 /* ====== END PORTFOLIO HERO ======*/
