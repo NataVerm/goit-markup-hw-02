@@ -151,7 +151,6 @@ body {
   color: var(--primary-text-color-theme-dark);
 }
 .address-list-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
