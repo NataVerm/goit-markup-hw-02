@@ -151,7 +151,7 @@ body {
   color: var(--primary-text-color-theme-dark);
 }
 .address-list-link {
-font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -166,3 +166,34 @@ font-style: normal;
   color: var(--accent-color);
 }
 /* ====== END FOOTER ======*/
+/* ====== START PORTFOLIO HERO ======*/
+.portfolio-list-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+}
+.portfolio-list-btn:hover,
+.portfolio-list-btn:focus {
+  color: var(--primary-text-color-theme-dark);
+  background-color: var(--accent-color);
+}
+.portfolio-works-list-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color-theme-light);
+}
+.portfolio-works-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-theme-light);
+}
+/* ====== END PORTFOLIO HERO ======*/
