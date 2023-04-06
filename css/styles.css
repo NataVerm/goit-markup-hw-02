@@ -26,7 +26,7 @@ body {
   color: #000000;
 }
 .logo-color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* ====== END COMPONENTS ======*/
 /* ====== START HEADER ======*/
@@ -36,6 +36,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-theme-light);
+}
+.nav-list-active-page {
+  color: var(--accent-color);
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
@@ -147,14 +150,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-dark);
 }
-.address-list-address {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color-theme-dark);
-}
 .address-list-link {
   font-style: normal;
   font-weight: 400;
@@ -162,5 +157,12 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-dark);
+}
+.address-list-address {
+  color: var(--primary-text-color-theme-dark);
+}
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--accent-color);
 }
 /* ====== END FOOTER ======*/
