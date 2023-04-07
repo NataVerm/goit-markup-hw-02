@@ -161,6 +161,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   cursor: pointer;
+  background-color: var(--primary-backgraund-color);
 }
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus {
